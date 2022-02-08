@@ -18,7 +18,7 @@ If you need help with the source code, go to the following server:
 
 The bot has a basic but functional language system, you can add more languages. But that is already under your responsibility.
 
-**Lenguajes disponibles:**
+**Available languages:**
 Spanish `(es)` y English `(en)`
 
 #Commands:
