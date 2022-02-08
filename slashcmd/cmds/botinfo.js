@@ -67,10 +67,6 @@ try{
 const embed = new MessageEmbed()
 .setAuthor("Information of "+client.user.username, client.user.avatarURL())
 .setColor('RANDOM')
-.setDescription( `*Hi, I'm SAMPBot, I'm a bot dedicated to obtaining information from SAMP servers. If you need help with the bot, go to the Support server:* ***[Server Support](https://discord.gg/TQqw9t26xY)***\n\n
-<:bot:917203513153564692>    **Prefix:** `+'`'+`/`+'`'+`
-<:stack:924201442657599508>    **API:** `+'`'+`${Math.round(client.ws.ping)}`+'ms`'+`
-`)
 .addField(`<:8263blurplemembers:863131216030859325>  Communities`, `**Servers:** ${totalGuilds}\n **Users:** ${totalMembers}`)
 .addField('Creation date:', '```yaml\n'+`${client.user.createdAt.toLocaleDateString("es-pe")}`+' ```')
 .addField('CPU Used:', "```yaml\n% " + info + "```")
@@ -79,24 +75,9 @@ const embed = new MessageEmbed()
 .addField('Discord.js',`V${Discord.version}`)
 .addField('Node.js',`${process.version}`)
 .addField('UpTime:', `${prettyMilliseconds(client.uptime)}`)
-.addField('Links:','> [Server Support]('+require('../../config.json').soporteurl+')\n> [Invite me!](https://discord.com/api/oauth2/authorize?client_id=912460171912028200&permissions=139586817088&scope=bot%20applications.commands)')
 .setTimestamp()
 .setThumbnail(client.user.avatarURL({dynamic: true, size: 4096, format: 'png'}))
-const row = new Discord.MessageActionRow()
-.addComponents(
-  new Discord.MessageButton()
-  .setStyle('LINK')
-  .setLabel('Invite!')
-  .setEmoji('<:add:910983014341832775>')
-  .setURL('https://discord.com/api/oauth2/authorize?client_id=912460171912028200&permissions=139586817088&scope=bot%20applications.commands')
-)
-.addComponents(
-  new Discord.MessageButton()
-  .setStyle('LINK')
-  .setLabel('Server Support')
-  .setEmoji('<:support:910990247473602640>')
-  .setURL(require('../../config.json').soporteurl)
-)
+
 /*
 .addComponents(
   new Discord.MessageButton()
