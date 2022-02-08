@@ -30,7 +30,7 @@ Spanish `(es)` y English `(en)`
     `/ip`, `/server`, `/avatar`
 
 **Bot**: 
-    `/botinfo`, `/invite`, `/support`, `/ping`
+    `/botinfo`, `/ping`
 
 #Turn On the Bot
 **Steps to turn on the bot:**
