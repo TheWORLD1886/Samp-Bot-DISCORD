@@ -1,0 +1,130 @@
+{
+	"permissions": {
+		"ADMINISTATOR": "Administrador",
+		"MANAGE_GUILD": "Gestionar Servidor",
+		"MANAGE_ROLES": "Gestionar Roles",
+		"MANAGE_MEMBERS": "Gestionar Miembros",
+		"MANAGE_CHANNELS": "Gestionar Canales",
+		"BAN_MEMBERS": "Banear Miembros",
+		"KICK_MEMBERS": "Expulsar Miembros",
+		"MANAGE_NICKNAMES": "Gestionar Apodos",
+		"MANAGE_EMOJIS_AND_STICKERS": "Gestionar Emojis y Stickers",
+		"CREATE_INSTANT_INVITE": "Crear una invitacion instantanea",
+		"ADD_REACTIONS": "Añadir reacciones",
+		"VIEW_AUDIT_LOG": "Ver registro de auditoría",
+		"PRIORITY_SPEAKER": "Prioridad para hablar",
+		"VIEW_CHANNEL": "Ver Canal",
+		"SEND_TTS_MESSAGES": "Enviar Messages TTS",
+		"EMBED_LINKS": "Embed Links",
+		"ATTACH_FILES": "Adjuntar Archivos",
+		"READ_MESSAGE_HISTORY": "Leer Historial de Mensajes",
+		"USE_EXTERNAL_EMOJIS": "Usar Emojis Externos",
+		"VIEW_GUILD_INSIGHTS": "VIEW_GUILD_INSIGHTS",
+		"CONNECT": "Voice Connect",
+		"SPEAK": "Voice Speak",
+		"MUTE_MEMBERS": "Voice Mute Members",
+		"DEAFEN_MEMBERS": "Voice ensordecer Miembros",
+		"MOVE_MEMBERS": "Voice Move Members",
+		"CHANGE_NICKNAME": "Gestionar tu apodo",
+		"MANAGE_WEBHOOKS": "Gestionar WebHooks",
+		"USE_APPLICATION_COMMANDS": "Usar Comandos de Barra (Usar Comandos de Aplicación)"
+	},
+	"error": {
+		"nomention": "**Debes mencionar a un usuario.**",
+		"noreason": "Debes colocar una razón.",
+		"permissions": "No cuentas con suficientes permisos para utilizar este comando.",
+		"mepermissions": "No cuento con suficientes permisos para ejecutar este comando.",
+		"permission": "Permiso requerido:",
+		"noip": "{emojierror} No hay ninguna IP establecida en este servidor, por favor establezca una usando: `/setip`",
+		"errip": "Ha ocurrido un error, intentalo de nuevo, esta es la IP del servidor establecido:"
+	},
+	"NSFW": "<:access_denied:916930301018664983> **Este comando solo se puede usar en canales (NSFW)**",
+	"index": {
+		"coldown": "Espera **{time}** para usar este comando de nuevo."
+		,
+		"channel":"{error} Este comando solo puede ser ejecutado en el canal: {channel}"
+	},
+	"setlang": {
+		"category": "Configuración",
+		"nooption": "**Debes colocar una opción.** \nFormato:  \n```js\n{prefix}setlang <Opción: English or Spanish>```"
+	},
+	"ping": {
+		"api": "<:api:924201434298343475>  **Api ms:** {clientapi}ms",
+		"local": "<:server:916963558586191913> **Local ms:** {clientlocal}ms"
+	},
+	"prefix": {
+		"noargs": "{emojidanger} **Debes escribir un caracter especial para establecerlo como prefix.**\nEjemplo:\n```js\n{prefix}prefix <Argumentos: p! | $ | % >```",
+		"yargs": "{successemoji} **Mi prefix se ha establecido correctamente en este servidor a:** `{prefix}`"
+	},
+	"cserver": {
+		"seted": "{checkedmoji} La IP del juego seleccionado se ha establecido a la siguiente: **{iport}**",
+		"seted2": "{infomoji} Puedes ver la información de tu servidor usando: `/server [Server]`, `/ip [Server]`"
+	},
+	"usagecmention": "`<Requerido: #TextChannel | ID>`",
+	"ip": {
+		"truefalse1": {
+			"yes": " Si",
+			"no": " No"
+		},
+		"truefalse2": {
+			"yes": " Si",
+			"no": " No"
+		},
+		"players": "Jugadores:",
+		"map": "Mapa:",
+		"gamemode": "Modo de Juego:",
+		"passworded": "Contraseña?",
+		"lagshot": "Lagshot?",
+		"ver": "Versión de server:",
+		"url": "URL:",
+		"language": "Lenguaje:"
+	},
+	"avatar": {
+		"self": "Este es tu avatar: **[AvatarURL]({aurl})**",
+		"mention": "El avatar de {user} es: **[AvatarURL]({murl})**"
+	},
+	"config": {
+		"title": "Pasos para configurarme - SA:MP",
+		"step1": {
+			"1": "**Paso 1:**",
+			"2": "Establece tu lenguaje preferido usando:\n `/setlanguage <Selección requerida: Es / En >`, (Es/En (Más próximamente))"
+		},
+		"step2": {
+			"1": "**Paso 2:**",
+			"2": "Para establecer una IP de un servidor de SA:MP puedes usar:\n `/setip <Selección requerida: Server1 / Server2>` You can add a maximum of 2 IPs."
+		},
+		"step3": {
+			"1": "**Paso 3:**",
+			"2": "Ahora que has hecho los pasos necesarios, ya puedes ver la información de tu server usando: \n`/server` or `/ip`"
+		},
+		"other": {
+			"1": "Si deseas eliminar una IP de algún servidor puedes usar:\n `/removeip <Required Select: Server1 / Server2>`"
+		}
+	},
+	"support": {
+		"1": "**Para entrar al servidor de soporte pulse el siguiente botón:**"
+	},
+	"rip": {
+		"r1": "{success} **La IP del servidor seleccionado ha sido eliminado.**\n**Nota:** Si quieres añadir otra usa: `/setip`"
+	},
+	"servers":{
+		"1":"`Ninguna IP establecida, usa: /setip`",
+		"2":"Servidores Establecidos - SA:MP",
+		"3":"**Nota:**\nPara ver la información de un servidor usa: `/ip [Server]`"
+	},
+	"schannel":{
+		"1":"{check} El canal seleccionado se ha establecido correctamente como canal de comando, ahora los usuarios que van a usar mis comandos disponibles tendrán que ingresar a ese canal para que funcionen los comandos. **(Incluye a los usuarios: Admins)**"
+		,"2":"{err} No debe seleccionar ningún canal de voz o categorías, solo canales de texto. \n {usage}"
+	},
+	 "invite":{
+		 "btn":"Invitame!",
+		 "1":"Hola! Gracias por interesarte en mi, si deseas añadirme en tu servidor pulsa el siguiente botón: **[Invitar]({link})**"
+	 },
+	 "help":{
+		 "1":"Para obtener más información de un comando usa: `/help [Nombre del Comando]`"
+	 },
+	 "rchannel":{
+		 "1":"{check} El canal establecido para el bot ha sido borrado correctamente. \n Nota: Si quieres cambiar de canal usa: ``/setchannel <Required select: Channel / ID>`",
+		 "2":"{error} No hay ningún canal establecido, si necesitas añadir uno usa: `/setchannel <Required select: Channel / ID>`"
+	 }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "pebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@asmagin/google-translate-api": "^8.0.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.7.5",
+    "ascii-table": "0.0.9",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.1",
+    "gamedig": "^3.0.8",
+    "html-entities": "^2.3.2",
+    "humanize-duration": "^3.27.0",
+    "i": "^0.3.7",
+    "i18n": "^0.13.3",
+    "megadb": "^3.4.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.6",
+    "ms": "^3.0.0-canary.1",
+    "node": "^16.9.1",
+    "node-fetch": "^2.6.6",
+    "node-os-utils": "^1.3.5",
+    "nodemon": "^2.0.15",
+    "npm": "^8.1.3",
+    "opusscript": "^0.0.8",
+    "os-utils": "^0.0.14",
+    "ping-monitor": "^0.6.1",
+    "pretty-ms": "^7.0.1",
+    "quick.db": "^7.1.3",
+    "quick.mongodb": "^1.0.1",
+    "quickmongo": "^4.0.0",
+    "samp-query": "^0.1.5",
+    "topgg-autoposter": "^2.0.0",
+    "unique-string": "^3.0.0"
+
+
+  }
+}

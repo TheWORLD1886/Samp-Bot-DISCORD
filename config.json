@@ -1,0 +1,26 @@
+
+{
+    "clientId":"ID BOT", 
+    "token":"TOKEN BOT",
+    "mongotoken":"MONGO DB TOKEN",
+    "errorcolor":"#cc2e2e",
+    "successcolor":"#2aa24a",
+    "soporteurl":"SUPPORT BOT INVITE",
+    "botlogs":"Bot logs (Errors)",
+    "issuelogs":"",
+    "invite":"INVITE BOT"
+
+
+,
+    "emojis":{
+        "success":"Success emoji ID",
+        "error":"Error Emoji ID",
+        "info":"Info Emoji ID",
+        "attention":"Warning Emoji ID",
+        "accessno":"Acces Denied Emoji ID",
+        "on":"Toggle On Emoji ID",
+        "off":"Toggle Off Emoji ID",
+        "online":"Online Emoji ID",
+        "offline":"Offline Emoji ID"
+    }
+}

@@ -1,0 +1,137 @@
+{
+	"permissions": {
+		"ADMINISTATOR": "Administrator",
+		"MANAGE_GUILD": "Manage Guild",
+		"MANAGE_ROLES": "Manage Roles",
+		"MANAGE_MEMBERS": "Manage Members",
+		"MANAGE_CHANNELS": "Manage Channels",
+		"BAN_MEMBERS": "Ban Members",
+		"KICK_MEMBERS": "Kick Members",
+		"MANAGE_NICKNAMES": "Manage Nicknames",
+		"MANAGE_EMOJIS_AND_STICKERS": "Manage Emojis and Stickers",
+		"CREATE_INSTANT_INVITE": "Create Instant Invite",
+		"ADD_REACTIONS": "Add Reactions",
+		"VIEW_AUDIT_LOG": "View Audit Logs",
+		"PRIORITY_SPEAKER": "Priority Speaker",
+		"VIEW_CHANNEL": "View Channel",
+		"SEND_TTS_MESSAGES": "Send TTS Messages",
+		"EMBED_LINKS": "Embed Links",
+		"ATTACH_FILES": "Attach Files",
+		"READ_MESSAGE_HISTORY": "Read Message History",
+		"USE_EXTERNAL_EMOJIS": "Use External Emojis",
+		"VIEW_GUILD_INSIGHTS": "View Guild Insights",
+		"CONNECT": "Voice Connect",
+		"SPEAK": "Voice Speak",
+		"MUTE_MEMBERS": "Voice Mute Members",
+		"DEAFEN_MEMBERS": "Voice Deafen Members",
+		"MOVE_MEMBERS": "Voice Move Members",
+		"CHANGE_NICKNAME": "Change Nickname",
+		"MANAGE_WEBHOOKS": "Manage Webhooks",
+		"USE_APPLICATION_COMMANDS": "Use Slash Commands (Use Application Commands)",
+		"REQUEST_TO_SPEAK": "Request To Speak",
+		"MANAGE_THREADS": "Manage Threads",
+		"USE_PUBLIC_THREADS": "Use Public Threads",
+		"START_EMBEDDED_ACTIVITIES": "Start Embedded Activities"
+	},
+	"error": {
+		"nomention": "**You must mention a user.**",
+		"noreason": "**You must put a reason.**",
+		"permissions": "You don't have sufficient permissions to use this command.",
+		"mepermissions": "I don't have sufficient permissions to use run this command.",
+		"permission": "Required Permission:",
+		"noip": "{emojierror} There is no IP set on this server, please set one using: `/setip`",
+		"errip": "Han error has been ocurred, but don't worry i already notified to my developer to repair this problem, try again or use this IP server:"
+	},
+	"NSFW": "<:access_denied:916930301018664983> **This command can only be used on a restricted channel (NSFW)**",
+	"usagemention": "[Optional: @Usuario | ID]",
+	"usagecmention": "`<Required: #TextChannel | ID>`",
+	"setlang": {
+		"category": "Configuration",
+		"nooption": "**You must put an option.** \nFormat:  \n```js\n{prefix}setlang <Options: English or Spanish>```"
+	},
+	"ping": {
+		"api": "<:api:924201434298343475>  **Api ms:** {clientapi}ms",
+		"local": "<:server:916963558586191913> **Local ms:** {clientlocal}ms"
+	},
+	"prefix": {
+		"noargs": "{emojidanger} **You must write a special argument to set it as a prefix.**\nExample:\n```js\n{prefix}prefix <Arguments: p! | $ | % >```",
+		"yargs": "{successemoji} **My prefix has been successfully set on this server to:** `{prefix}`",
+		"already": "{emojidanger} **The prefix you have tried to set for me is already set on this server!**\nFormat use:\n```js\n{prefix}prefix <Arguments: p! | $ | % >```"
+	},
+	"cserver": {
+		"seted": "{checkedmoji} The IP of your server 1 has been set to: **{iport}**",
+		"seted1": "{checkedmoji} The IP of your server 2 has been set to: **{iport}**",
+		"seted2": "{infomoji} You can see the server status using the commands: `/server`, `/ip`"
+	},
+	"ip": {
+		"truefalse1": {
+			"yes": " Yes",
+			"no": " No"
+		},
+		"truefalse2": {
+			"yes": " Yes",
+			"no": " No"
+		},
+		"players": "Players:",
+		"map": "Map:",
+		"gamemode": "Gamemode:",
+		"passworded": "Passwored?",
+		"lagshot": "Lagshot?",
+		"ver": "Server Ver:",
+		"url": "URL:",
+		"language": "Language:"
+	},
+	"rip": {
+		"r1": "{success} **The IP server selected has been removed from this server.**\n **Note:** If u wanna add another IP use: `/setip`"
+	},
+	"avatar": {
+		"self": "This is your avatar: **[AvatarURL]({aurl})**",
+		"mention": "The avatar of {user} is: **[AvatarURL]({murl})**"
+	},
+	"config": {
+		"title": "Steps to set up - SA:MP",
+		"step1": {
+			"1": "**Step 1:**",
+			"2": "Set you prefer language in the server using:\n `/setlanguage <Required Select: Es / En >`, (Es/En (More Coming Soon))"
+		},
+		"step2": {
+			"1": "**Step 2:**",
+			"2": "To set the IP of your SAMP server you can use:\n `/setip <Required Select: Server1 / Server2>` You can add a maximum of 2 IPs."
+		},
+		"step3": {
+			"1": "**Step 3:**",
+			"2": "Now you can check the IP address of you server samp using: \n`/server` or `/ip`"
+		},
+		"other": {
+			"1": "If you wanna remove a IP you can use the command:\n `/removeip <Required Select: Server1 / Server2>`"
+		}
+	},
+	"index": {
+		"coldown": "Wait **{time}** to use this command again."
+	,
+	"channel":"{error} This command can only be executed on the channel: {channel}"
+	},
+	"support":{
+		"1":"**To enter in the server support press the button:**"
+	},
+	"servers":{
+		"1":"`No IP set, use: /setip`",
+		"2":"Established Servers - SA:MP",
+		"3":"**Note:**\nTo see the information of a server use: `/ip [Server]`"
+	},
+	"schannel":{
+		"1":"{check} The selected channel has been correctly established as a command channel, now the users who are going to use my available commands will have to enter that channel for the commands to work. **(Includes: Admins)**"
+		,"2":"{err} You should not select any voice channels or categories, only text channels. \n {usage}"
+	},
+	"invite":{
+		"btn":"Invite!",
+		"1":"Hi! Thank you for being interested in me, if you want to add me to your server, press the following button: **[Invite]({link})**"
+	},
+	"help":{
+		"1":"To get more info in commands use: `/help [Command Name]`"
+	},
+	"rchannel":{
+		"1":"{check} The channel that was set to use commands there has been successfully removed. \n Note: If you wanna change the channel or add another use: ``/setchannel <Required select: Channel / ID>`",
+		"2":"{error} There is no established channel, if you want to add one use: `/setchannel <Required select: Channel / ID>`"
+	}
+}
